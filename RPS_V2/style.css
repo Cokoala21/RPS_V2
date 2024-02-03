@@ -1,0 +1,85 @@
+
+
+
+
+body{
+    background: linear-gradient(45deg, #FFD700, #FF69B4);
+    box-sizing: border-box;
+    font-family: 'Honk', system-ui;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    text-align: center;
+
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    font-size: 4rem;
+}
+
+#scoreBoard{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    font-size: 4rem;
+}
+
+
+
+
+#iconBox {
+     display: flex;
+     justify-content: space-evenly;
+    }
+      
+.icon img {
+    width: 100px; 
+    height: auto; 
+    margin: auto;
+    }
+      
+
+#ganador{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+
+.icon{
+    background: linear-gradient(45deg, #FFD700, #FF69B4);
+    border: #FF69B4;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        background: linear-gradient(45deg, #FFD700, #FF69B4);
+        box-sizing: border-box;
+        font-family: 'Honk', system-ui;
+        font-size: 1rem;
+    }
+    h2,
+    #marcador {
+        margin: 20px; /* Reducir el margen */
+    }
+
+    .icon img {
+        width: 70px; /* Ajustar el tamaño de las imágenes */
+        margin: 5px; /* Reducir el espacio entre imágenes */
+    }
+}
+
+#winner{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    text-align: center;
+}
